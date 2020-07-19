@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bitter', serif;
+    background-image: url('images/grey2.jfif');
+   
+}
+.Indiv{
+    
+     height:65vh;
+     border-image-slice:67 72 66 73;
+     border-image-width:42px 42px 42px 42px;
+     border-image-outset:0px 0px 0px 0px;
+     border-image-repeat:round round;
+     border-image-source:url("https://mdn.mozillademos.org/files/6017/border-image-6.svg");
+}
+.structure{
+    width: 35%;
+    height: 65vh; 
+    position: relative;
+    left:10%;
+    margin-top: 6%;
+    float: left;
+    
+}
+input[name]{
+    width:60%;
+    height: 50%;
+}
+a[target="_blank"]{
+    color: rgba(243, 75, 9, 0.938);
+}
+#legend{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(241, 8, 210);
+}
+.form{
+    position: absolute;
+    top:15%;
+    left:20%;
+}
+.name{
+    color:white;
+    font-weight: normal;
+}
+#f{
+    margin-right: 48px;
+}
+#s{
+    margin-right: 62px;
+}
+#t{
+    margin-right: 40px;
+}
+::placeholder{
+    text-transform: capitalize;
+}
+a:link{
+    color:rgba(240, 75, 10, 0.932);
+}
+a:hover{
+    color:blue;
+    text-decoration: none;
+    font-size: 14px ;
+    font-weight: 300;
+}
+#pass{
+   position: absolute;
+   top:51%;
+   right:30%;
+   font-size: 13px;
+   text-decoration: none;    
+
+}
+
+.middle{
+    position: absolute;
+    top: 65%;
+    left:16%;
+    width:100%;
+}
+.logo1{
+    float:left;
+}
+.data{
+    text-align: center;
+    padding: 5px 2px 5px 0px;
+}
+#login{
+    width:55%;
+    height:5vh;
+    background-color:green;
+    color:white;
+    font-size: medium;
+    margin:0 8%;
+}
+#cancel{
+    width:55%;
+    height:5vh;
+    background-color:red;
+    color:white;
+    font-size: medium;
+    margin:0 8%;
+}
+button[id="login"]:hover{
+    font-size: bold;
+    box-shadow: 2px 2px 3px rgba(13, 231, 13, 0.733); 
+}
+button[id="cancel"]:hover{
+    font-size: bold;
+    box-shadow: 2px 2px 3px rgba(247, 42, 6, 0.829);
+}
+div[id="choice"]{
+    width:5%;
+    height: 10%;
+    float: left;
+}
+#choice{
+    position: relative;
+     left:14%;
+     margin-top:20%;
+    color: white;
+    font-size: 300%;
+    background: -webkit-linear-gradient(180deg, rgba(5, 40, 240, 0.904), rgb(233, 79, 7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bottom{
+    float: left;
+    margin:12% 19%;
+    width:20%;
+    height: 50vh;
+    display: block;
+}
+.setbutton{
+    width:110%;
+    height:10vh;
+}
+.logo1{
+    width:19%;
+    height:8vh;
+    float: left;
+    margin-right: 3%;
+    padding:2% 2% 0% 2%;
+}
+.data{
+    color: white;
+    font-size: 115%;
+    padding-top: 6%;
+}
+.button{
+    background-color: transparent;
+    margin-bottom: 5%;
+    cursor:pointer;
+}
+div[class="setbutton"]:hover{
+    border:5px solid black;
+    border-image:linear-gradient(rgba(212, 56, 9, 0.822),rgba(233, 233, 48, 0.808)) 25 /15;
+}
