@@ -1,2 +1,2 @@
 # Login-Form
-<img src="Pictures/screenshots/Login_Form.png>
+<img src="images/Login_Form.png>
